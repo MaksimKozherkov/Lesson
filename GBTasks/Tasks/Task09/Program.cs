@@ -8,4 +8,4 @@ WriteLine("Введите число b: ");
 int b =Convert.ToInt32(ReadLine()!);
 
 
-WriteLine(a>b?$"{a}>{b}":$"{a}<{b}");
+WriteLine(a==b?$"{a}={b}":a>b?$"{a}>{b}":$"{a}<{b}");
